@@ -2,19 +2,19 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("A")
     PB += 1
     Rounds += 1
-    OLED.clear()
+    basic.clearScreen()
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showString("T")
     Ties += 1
     Rounds += 1
-    OLED.clear()
+    basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
     basic.showString("B")
     PB += 1
     Rounds += 1
-    OLED.clear()
+    basic.clearScreen()
 })
 input.onGesture(Gesture.Shake, function () {
     Reset()
